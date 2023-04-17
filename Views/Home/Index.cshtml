@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3 position-relative">
+                <label for="caller-name" class="form-label">Caller Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="caller-name">
+                <label for="caller-name" class="form-label position-absolute top-0 end-0">اسم المتصل</label>
+            </div>
+            <div class="mb-3 position-relative">
+                <label for="gender" class="form-label">Gender <span class="text-danger">*</span></label>
+                <select class="form-select" id="gender">
+                    <option selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="gender" class="form-label position-absolute top-0 end-0">الجنس</label>
+            </div>
+            <div class="mb-3 position-relative">
+                <label for="language" class="form-label">Language <span class="text-danger">*</span></label>
+                <select class="form-select" id="language">
+                    <option selected>Select Language</option>
+                    <option value="english">English</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="french">French</option>
+                </select>
+                <label for="language" class="form-label position-absolute top-0 end-0">اللغة</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="martial-status" class="form-label">Martial Status <span class="text-danger">*</span></label>
+                <select class="form-select" id="martial-status">
+                    <option selected>Select Martial Status</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                    <option value="divorced">Divorced</option>
+                </select>
+                <label for="martial-status" class="form-label position-absolute top-0 end-0">الحالة الاجتماعية</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="children" class="form-label">Children <span class="text-danger">*</span></label>
+                <input type="number" class="form-control" id="children">
+                <label for="children" class="form-label position-absolute top-0 end-0">الأطفال</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="age" class="form-label">Age <span class="text-danger">*</span></label>
+                <input type="number" class="form-control" id="age">
+                <label for="age" class="form-label position-absolute top-0 end-0">العمر</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="nationality" class="form-label">nationality <span class="text-danger">*</span></label>
+                <input type="number" class="form-control" id="age">
+                <label for="age" class="form-label position-absolute top-0 end-0">العمر</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="age" class="form-label">Age <span class="text-danger">*</span></label>
+                <input type="number" class="form-control" id="age">
+                <label for="age" class="form-label position-absolute top-0 end-0">العمر</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="nationality" class="form-label">Nationality <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="nationality">
+                <label for="nationality" class="form-label position-absolute top-0 end-0">الجنسية</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="country" class="form-label">Country <span class="text-danger">*</span></label>
+                <select class="form-select" id="country">
+                    <option selected>Select Country</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                </select>
+                <label for="country" class="form-label position-absolute top-0 end-0">الدولة</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="email">
+                <label for="email" class="form-label position-absolute top-0 end-0">البريد الإلكتروني</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="contact-no" class="form-label">Contact Number <span class="text-danger">*</span></label>
+                <input type="tel" class="form-control" id="contact-no">
+                <label for="contact-no" class="form-label position-absolute top-0 end-0">رقم الاتصال</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="agent" class="form-label">Agent <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="agent">
+                <label for="agent" class="form-label position-absolute top-0 end-0">الوكيل</label>
+            </div>
+
+        </div>
+
+        <!-- *************************** Customer Questions Form ************************************************-->
+
+        <div class="col-md-6">
+
+            <div class="mb-3 position-relative">
+                <label for="call-code" class="form-label">Call Code</label>
+                <input type="text" class="form-control" id="call-code">
+                <label for="call-code" class="form-label position-absolute top-0 end-0">رمز المكالمة</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="subject" class="form-label">Subject <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="subject">
+                <label for="subject" class="form-label position-absolute top-0 end-0">الموضوع</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="question" class="form-label">Question <span class="text-danger">*</span></label>
+                <textarea class="form-control" id="question" rows="3"></textarea>
+                <label for="question" class="form-label position-absolute top-0 end-0">السؤال</label>
+            </div>
+
+            <div class="mb-3 position-relative">
+                <label for="answer" class="form-label">Answer <span class="text-danger">*</span></label>
+                <textarea class="form-control" id="answer" rows="3"></textarea>
+                <label for="answer" class="form-label position-absolute top-0 end-0">الإجابة</label>
+            </div>
+
+            <div class="form-check" style="padding-bottom:20px">
+    
+                <label class="form-check-label" for="not-answered">
+                 Not Answered
+                </label>
+                <input class="form-check-input float-end" type="checkbox" value="" id="not-answered">
+                <label for="not-answered" class="form-label position-absolute top-5 end-0">لم يتم الرد</label>
+            </div>
+
+
+            <div class="mb-3 position-relative">
+                <label for="callback-no" class="form-label">Call Back Number</label>
+                <input type="tel" class="form-control" id="callback-no">
+                <label for="callback-no" class="form-label position-absolute top-0 end-0">رقم الاتصال لإعادة الاتصال</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</form>
+
+
+
+
