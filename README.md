@@ -11,7 +11,7 @@ Contact Centre Screen Pop is a .NET application that provides a seamless integra
 
 ## Requirements
 
-- .NET Framework (version X.X or higher)
+- .NET Framework (version 3.5 or higher)
 - Contact center system with integration capabilities
 
 ## Installation
